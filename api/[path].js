@@ -15,6 +15,9 @@ module.exports = async (request, response) => {
   // 如果是 /api/tvbox.json，那么 request.query.path 就是 tvbox.json
   const requestedPath = request.query.path ? `/${request.query.path}` : '/';
 
+  // 获取当前 Worker 的基础 URL，不包含路径部分
+  const workerBaseUrl = url.origin; // 例如 "https://tvbox-github-proxy.yourusername.workers.dev"
+
   // --- 1. 处理根路径 /api/ 或者其他未匹配的路径 (显示一个无关紧要的欢迎页) ---
   if (requestedPath === '/') {
     response.setHeader('Content-Type', 'text/html; charset=utf-8');
@@ -39,7 +42,7 @@ module.exports = async (request, response) => {
               <p>这个页面主要用于代理 GitHub 上的 TVBox 配置和相关文件。</p>
               <p>你可以通过在Tvbox配置地址填入以下信息：</p>
               <ul>
-                  <li><code>https://你的VercelURL/api/tvbox.json</code></li>
+                  <li><code>${workerBaseUrl}/api/tvbox.json</code></li>
               </ul>
               <p>本GitHub 仓库是公开的。</p>
               <p>祝您观影愉快！</p>
