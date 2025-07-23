@@ -78,19 +78,27 @@
         <p class="footer">本服务由 Vercel 托管，文件内容直接来自 GitHub 仓库。</p>
     </div>
     <script>
-        // 获取当前页面的完整基础 URL（例如 https://your-domain.com）
-        const baseUrl = window.location.origin;
+        // 在 DOMContentLoaded 事件触发后执行，确保所有元素都已加载
+        document.addEventListener('DOMContentLoaded', function() {
+            // 获取当前页面的完整基础 URL（例如 https://your-domain.com）
+            const baseUrl = window.location.origin;
 
-        // 获取链接元素并更新它们的 href 和文本内容
-        const tvboxJsonLink = document.getElementById('tvbox-json-link');
-        if (tvboxJsonLink) {
-            const relativePath = tvboxJsonLink.getAttribute('href'); // 获取相对路径 /tvbox.json
-            const fullUrl = baseUrl + relativePath;
-            tvboxJsonLink.href = fullUrl;
-            tvboxJsonLink.textContent = fullUrl; // 显示完整的URL文本
-        }
+            // 辅助函数，用于更新链接
+            function updateLink(id) {
+                const linkElement = document.getElementById(id);
+                if (linkElement) {
+                    const relativePath = linkElement.getAttribute('href'); // 获取相对路径 /tvbox.json
+                    const fullUrl = baseUrl + relativePath;
+                    linkElement.href = fullUrl;
+                    linkElement.textContent = fullUrl; // 显示完整的URL文本
+                }
+            }
 
-        // 可以根据需要添加更多链接的动态更新
+            // 调用辅助函数更新每个链接
+            updateLink('tvbox-json-link');
+
+            // 可以根据需要添加更多链接的动态更新
+        });
     </script>
 </body>
 </html>
