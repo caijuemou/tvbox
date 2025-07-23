@@ -70,10 +70,41 @@
         <p>这里托管着 TVBox 配置文件和相关脚本。</p>
         <p>你可以通过在Tvbox配置地址填入以下信息：</p>
         <ul>
-            <li>配置文件: <a href="/tvbox.json">/tvbox.json</a></li>
+            <li>配置文件: <a id="tvbox_json-link" href="/tvbox.json">/tvbox.json</a></li>
             <li>您可以在浏览器中点击链接查看文件内容，或复制到 TVBox 中使用。</li>
         </ul>
         <p class="footer">本服务由 Vercel 托管，文件内容直接来自 GitHub 仓库。</p>
     </div>
+<script>
+        // 获取当前页面的完整基础 URL（例如 https://your-domain.com）
+        const baseUrl = window.location.origin;
+
+        // 获取链接元素并更新它们的 href 和文本内容
+        const tvboxJsonLink = document.getElementById('tvbox-json-link');
+        if (tvboxJsonLink) {
+            const relativePath = tvboxJsonLink.getAttribute('href'); // 获取相对路径 /tvbox.json
+            const fullUrl = baseUrl + relativePath;
+            tvboxJsonLink.href = fullUrl;
+            tvboxJsonLink.textContent = fullUrl; // 显示完整的URL文本
+        }
+
+        const jsScriptLink = document.getElementById('js-script-link');
+        if (jsScriptLink) {
+            const relativePath = jsScriptLink.getAttribute('href');
+            const fullUrl = baseUrl + relativePath;
+            jsScriptLink.href = fullUrl;
+            jsScriptLink.textContent = fullUrl;
+        }
+
+        const libFileLink = document.getElementById('lib-file-link');
+        if (libFileLink) {
+            const relativePath = libFileLink.getAttribute('href');
+            const fullUrl = baseUrl + relativePath;
+            libFileLink.href = fullUrl;
+            libFileLink.textContent = fullUrl;
+        }
+
+        // 可以根据需要添加更多链接的动态更新
+    </script>
 </body>
 </html>
