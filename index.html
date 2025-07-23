@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TVBox 配置托管服务</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 35px 50px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e0e6ea;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-size: 2.2em;
+        }
+        p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 30px;
+            text-align: left;
+            display: inline-block; /* 让 ul 居中 */
+        }
+        li {
+            background-color: #e9f5fd;
+            padding: 12px 20px;
+            margin-bottom: 10px;
+            border-left: 5px solid #3498db;
+            border-radius: 6px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.05em;
+            color: #2c3e50;
+        }
+        li a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎来到 TVBox 配置中心！</h1>
+        <p>这里托管着 TVBox 配置文件和相关脚本。</p>
+        <p>你可以通过在Tvbox配置地址填入以下信息：</p>
+        <ul>
+            <li>配置文件: <a href="/tvbox.json">/tvbox.json</a></li>
+            <li>您可以在浏览器中点击链接查看文件内容，或复制到 TVBox 中使用。</li>
+        </ul>
+        <p class="footer">本服务由 Vercel 托管，文件内容直接来自 GitHub 仓库。</p>
+    </div>
+</body>
+</html>
