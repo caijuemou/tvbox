@@ -1,5 +1,5 @@
 {
-  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/caijuemou/tvbox/main/jar/盒子迷.css",
+  "spider": "./jar/盒子迷.css",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
   "logo": "",
   "sites": [
