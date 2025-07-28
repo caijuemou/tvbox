@@ -2,9 +2,9 @@
     "spider": "./jar/fan.txt;md5;53ad14bb641d6ad5b1a76ea48f35cb7d",
     "lives": [
         {
-            "name": "fmm",
+            "name": "zbds",
             "type": 0,
-            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+            "url": "https://live.zbds.org/tv/iptv4.txt",
             "playerType": 1,
             "ua": "okhttp/3.8.1",
             "timeout": 20,
