@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;53ad14bb641d6ad5b1a76ea48f35cb7d",
+    "spider": "./jar/fan.txt;md5;2452e3a72453e1e2305e9b66eae38fe5",
     "lives": [
         {
             "name": "zbds",
@@ -24,7 +24,7 @@
         {
             "name": "ipv6",
             "type": 0,
-            "url": "./tvboxtv.txt",
+            "url": "./iptv.txt",
             "playerType": 1,
             "ua": "okhttp/3.8.1",
             "timeout": 20,
@@ -89,6 +89,20 @@
             }
         },
         {
+            "key": "seed",
+            "name": "💡聚剧剧┃三盘",
+            "type": 3,
+            "api": "csp_SeedhubGuard",
+            "changeable": 0,
+            "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
+            "searchable": 1,
+            "quickSearch": 1,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "白白",
             "name": "🐟白白┃秒播",
             "type": 3,
@@ -104,6 +118,17 @@
             "name": "📔厂长┃不卡",
             "type": 3,
             "api": "csp_NewCzGuard",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "南瓜",
+            "name": "🎃南瓜┃不卡",
+            "type": 3,
+            "api": "csp_NanGuaGuard",
             "timeout": 15,
             "playerType": 2,
             "searchable": 1,
