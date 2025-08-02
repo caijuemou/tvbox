@@ -4,7 +4,7 @@
         {
             "name": "zbds",
             "type": 0,
-            "url": "https://live.zbds.org/tv/iptv4.txt",
+            "url": "./iptv.txt",
             "playerType": 1,
             "ua": "okhttp/3.8.1",
             "timeout": 20,
@@ -24,7 +24,7 @@
         {
             "name": "ipv6",
             "type": 0,
-            "url": "./iptv.txt",
+            "url": "./tvboxtv.txt",
             "playerType": 1,
             "ua": "okhttp/3.8.1",
             "timeout": 20,
