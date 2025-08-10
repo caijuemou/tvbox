@@ -1,6 +1,16 @@
 {
-    "spider": "./jar/fan.txt;md5;018da6256f0aad4c040ad0e7ed4194fd",
+    "spider": "./jar/fan.txt;md5;74a78ddc8af2f6518952b52c94067ee7",
     "lives": [
+        {
+            "name": "migu",
+            "type": 0,
+            "url": "https://gitee.com/dream-deve/migu_video/raw/main/interface.txt",
+            "playerType": 1,
+            "ua": "okhttp/3.8.1",
+            "timeout": 20,
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
         {
             "name": "zbds",
             "type": 0,
