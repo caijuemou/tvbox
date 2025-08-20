@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;c62c307314178af8637480fcb2fe61f7",
+    "spider": "./jar/fan.txt;md5;81614a4982ac5fd02d64f075e87c9150",
     "lives": [
         {
             "name": "migu",
@@ -113,10 +113,10 @@
             }
         },
         {
-            "key": "白白",
-            "name": "🐟白白┃秒播",
+            "key": "文采",
+            "name": "💮文采┃秒播",
             "type": 3,
-            "api": "csp_SbaibaiGuard",
+            "api": "csp_JpysGuard",
             "timeout": 15,
             "playerType": 2,
             "searchable": 1,
@@ -135,15 +135,14 @@
             "changeable": 1
         },
         {
-            "key": "南瓜",
-            "name": "🎃南瓜┃不卡",
+            "key": "下饭",
+            "name": "🍙下饭┃多线",
             "type": 3,
-            "api": "csp_NanGuaGuard",
-            "timeout": 15,
-            "playerType": 2,
+            "api": "csp_AppYsV2Guard",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
+            "filterable": 1,
+            "ext": "rfOK0+FRORAJ7epFjN2F5bqpqyOZwM/2zjo8fIu3AAlFJl8e/Co3qKR3f7pI2cY5ozXZZ9dHjiJz7Ht9P/01UpTYurKeSnahWreewemiQ2fux0BkNEtR69ypVhP1Muo4YsZTow4IKQzyEtbS42eHS9QK"
         },
         {
             "key": "原创",
@@ -177,10 +176,10 @@
             "changeable": 1
         },
         {
-            "key": "文采",
-            "name": "💮文采┃秒播",
+            "key": "白白",
+            "name": "🐟白白┃秒播",
             "type": 3,
-            "api": "csp_JpysGuard",
+            "api": "csp_SbaibaiGuard",
             "timeout": 15,
             "playerType": 2,
             "searchable": 1,

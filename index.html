@@ -6,62 +6,106 @@
     <title>TVBox 配置托管服务</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             text-align: center;
-            padding: 50px;
+            padding: 20px; /* 减小padding，更适合手机 */
             background-color: #f4f7f6;
             color: #333;
             line-height: 1.6;
         }
         .container {
-            max-width: 700px;
-            margin: 40px auto;
+            max-width: 800px;
+            margin: 20px auto; /* 减小margin */
             background-color: #ffffff;
-            padding: 35px 50px;
+            padding: 25px 30px; /* 调整padding */
             border-radius: 12px;
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
             border: 1px solid #e0e6ea;
         }
         h1 {
             color: #2c3e50;
-            margin-bottom: 25px;
-            font-size: 2.2em;
+            margin-bottom: 20px;
+            font-size: 2em; /* 调整字体大小，更适合移动端 */
         }
         p {
-            font-size: 1.1em;
+            font-size: 1rem;
             color: #555;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
         ul {
             list-style: none;
             padding: 0;
-            margin-top: 30px;
+            margin-top: 20px;
             text-align: left;
-            display: inline-block; /* 让 ul 居中 */
+            display: flex; /* 使用Flexbox布局 */
+            flex-direction: column; /* 让列表项垂直排列 */
+            align-items: center; /* 居中对齐 */
         }
         li {
             background-color: #e9f5fd;
             padding: 12px 20px;
-            margin-bottom: 10px;
+            margin-bottom: 15px; /* 增加列表项间距 */
             border-left: 5px solid #3498db;
             border-radius: 6px;
             font-family: 'Courier New', Courier, monospace;
-            font-size: 1.05em;
+            font-size: 0.95em;
             color: #2c3e50;
-	    word-wrap: break-word; /* 防止长URL溢出 */
+            word-wrap: break-word;
             overflow-wrap: break-word;
+            width: 100%; /* 列表项占据100%宽度 */
+            box-sizing: border-box; /* 确保padding和border包含在宽度内 */
         }
-        li a {
-            color: #3498db;
-            text-decoration: none;
+        .url-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #tvbox-json-url {
+            flex-grow: 1; /* 让URL文本占据剩余空间 */
+            margin-right: 10px;
             font-weight: bold;
+            color: #3498db;
+            white-space: nowrap; /* 不换行 */
+            overflow-x: auto; /* 文本溢出时显示滚动条 */
+            -webkit-overflow-scrolling: touch; /* 移动端平滑滚动 */
         }
-        li a:hover {
-            text-decoration: underline;
+        .copy-btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .copy-btn:hover {
+            background-color: #2980b9;
+        }
+        .copy-btn:active {
+            transform: scale(0.98);
+        }
+        .copy-tooltip {
+            visibility: hidden;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 10px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -50px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .url-wrapper {
+            position: relative;
+            display: inline-block;
         }
         .footer {
-            margin-top: 50px;
-            font-size: 0.9em;
+            margin-top: 30px;
+            font-size: 0.8em;
             color: #888;
         }
     </style>
@@ -69,39 +113,58 @@
 <body>
     <div class="container">
         <h1>欢迎来到 TVBox 配置中心！</h1>
-        <p>这里托管着 TVBox 配置文件和相关脚本。</p>
-        <p>你可以通过在Tvbox配置地址填入以下信息：</p>
+        <p>这里是 TVBox 配置文件和相关APP。</p>
+        <p>点击复制按钮复制地址，并在TVBox配置中粘贴地址：</p>
         <ul>
-            <li>配置文件: <a id="tvbox-json-link" href="/tvbox.json">/tvbox.json</a></li>
-            <li>您可以在浏览器中点击链接查看文件内容，或复制到 TVBox 中使用。</li>
-            <li>OK影视apk下载: <a href="/FongMiApks/mobile-arm64_v8a.apk">移动端</a>
-            <a href="/FongMiApks/leanback-arm64_v8a.apk">TV端</a></li>
-
+            <li>
+                <div class="url-box">
+                    <span id="tvbox-json-url"></span>
+                    <div class="url-wrapper">
+                        <button class="copy-btn" onclick="copyToClipboard()">复制</button>
+                        <span class="copy-tooltip" id="copy-tooltip">已复制!</span>
+                    </div>
+                </div>
+            </li>
+            <li>您可以在浏览器中点击复制此地址，并且粘贴到 TVBox 配置中使用。</li>
+            <li>OK影视apk下载: <a href="/FongMiApks/mobile-arm64_v8a.apk">移动端</a> <a href="/FongMiApks/leanback-arm64_v8a.apk">TV端</a></li>
         </ul>
-        <p class="footer">本服务由 Vercel 托管，文件内容直接来自 GitHub 仓库。</p>
+        <p class="footer">本服务由 Vercel 托管，文件内容来自 GitHub 仓库。</p>
     </div>
     <script>
-        // 在 DOMContentLoaded 事件触发后执行，确保所有元素都已加载
         document.addEventListener('DOMContentLoaded', function() {
-            // 获取当前页面的完整基础 URL（例如 https://your-domain.com）
             const baseUrl = window.location.origin;
+            const relativePath = "/tvbox.json";
+            const fullUrl = baseUrl + relativePath;
 
-            // 辅助函数，用于更新链接
-            function updateLink(id) {
-                const linkElement = document.getElementById(id);
-                if (linkElement) {
-                    const relativePath = linkElement.getAttribute('href'); // 获取相对路径 /tvbox.json
-                    const fullUrl = baseUrl + relativePath;
-                    linkElement.href = fullUrl;
-                    linkElement.textContent = fullUrl; // 显示完整的URL文本
-                }
+            const urlElement = document.getElementById('tvbox-json-url');
+            if (urlElement) {
+                urlElement.textContent = fullUrl;
             }
-
-            // 调用辅助函数更新每个链接
-            updateLink('tvbox-json-link');
-
-            // 可以根据需要添加更多链接的动态更新
         });
+
+        function copyToClipboard() {
+            const urlElement = document.getElementById('tvbox-json-url');
+            if (!urlElement) return;
+
+            // 创建一个临时的textarea元素来复制文本
+            const tempInput = document.createElement('textarea');
+            tempInput.value = urlElement.textContent;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            // 显示复制成功提示
+            const tooltip = document.getElementById('copy-tooltip');
+            tooltip.style.visibility = 'visible';
+            tooltip.style.opacity = 1;
+
+            // 提示2秒后消失
+            setTimeout(function(){
+                tooltip.style.visibility = 'hidden';
+                tooltip.style.opacity = 0;
+            }, 2000);
+        }
     </script>
 </body>
 </html>
