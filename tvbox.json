@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;81614a4982ac5fd02d64f075e87c9150",
+    "spider": "./jar/fan.txt;md5;bcaa35ff60c87f537cf509da3c40411e",
     "lives": [
         {
             "name": "migu",
@@ -81,6 +81,50 @@
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
             },
             "jar": "./jar/sx.jar;md5;6186f490eadf878ba5de21a7fa29e594"
+        },
+        {
+            "key": "短剧屋",
+            "name": "短剧屋｜短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./xiaosa/XYQHiker/短剧屋.json",
+            "jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"
+        },
+        {
+            "key": "农民影视",
+            "name": "农民｜影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./xiaosa/XYQHiker/农民影视.json",
+            "jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"
+        },
+        {
+            "key": "盒子影视",
+            "name": "盒子｜影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./xiaosa/XYQHiker/盒子影视.json",
+            "jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"
+        },
+        {
+            "key": "电影牛",
+            "name": "影牛｜影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./xiaosa/XYQHiker/电影牛.json",
+            "jar": "./xiaosa/spider.jar;md5;185ad34bff1c1ffc80e40cf0c503d8fe"
         },
         {
             "key": "玩偶",
