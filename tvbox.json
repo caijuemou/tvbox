@@ -91,18 +91,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/短剧屋.json",
-            "jar": "./xiaosa/spider.jar;md5;cba2ed9d62d13b1d0fe8ceaac6bbbf9d"
-        },
-        {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./xiaosa/XYQHiker/农民影视.json",
-            "jar": "./xiaosa/spider.jar;md5;cba2ed9d62d13b1d0fe8ceaac6bbbf9d"
+            "jar": "./xiaosa/spider.jar;md5;cbef6c24767c20ef21132d047d9ea8c4"
         },
         {
             "key": "盒子影视",
@@ -113,7 +102,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/盒子影视.json",
-            "jar": "./xiaosa/spider.jar;md5;cba2ed9d62d13b1d0fe8ceaac6bbbf9d"
+            "jar": "./xiaosa/spider.jar;md5;cbef6c24767c20ef21132d047d9ea8c4"
         },
         {
             "key": "电影牛",
@@ -124,7 +113,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/电影牛.json",
-            "jar": "./xiaosa/spider.jar;md5;cba2ed9d62d13b1d0fe8ceaac6bbbf9d"
+            "jar": "./xiaosa/spider.jar;md5;cbef6c24767c20ef21132d047d9ea8c4"
         },
         {
             "key": "玩偶",
@@ -186,7 +175,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "rfOK0+FRORAJ7epFjN2F+Lm9o2nF28P91TA4dIy3AAlFJl8e/Co3qKR3f7pI2cY5ozXZZ9dHjiJz7Ht9P/01UpTYurKeSnahWreewemiQ2fux0BkNEtR69ypVhP1Muo4YsZTow4IKQzyEtbS42eHS9QK"
+            "ext": "rfOK0+FRORAJ7epFjN2F5bqpqyOZwM/2zjo8fIu3AAlFJl8e/Co3qKR3f7pI2cY5ozXZZ9dHjiJz7Ht9P/01UpTYurKeSnahWreewemiQ2fux0BkNEtR69ypVhP1Muo4YsZTow4IKQzyEtbS42eHS9QK"
         },
         {
             "key": "原创",
