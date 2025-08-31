@@ -566,6 +566,7 @@ CETV-4,https://migu.188766.xyz/?migutoken=d5d19d868e1df41e984866fc7ca15071&id=CE
 
 ☘️浙江频道,#genre#
 浙江钱江,https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
+浙江钱江,http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 浙江钱江,http://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
 浙江钱江,http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
 浙江钱江都市,http://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8?zzhed
@@ -1367,6 +1368,7 @@ CETV-4,https://migu.188766.xyz/?migutoken=d5d19d868e1df41e984866fc7ca15071&id=CE
 涡阳新闻综合,http://220.180.124.18:888/live/ch0.m3u8
 广德生活,https://live.gdtv.ah.cn/live/newsTV.m3u8
 宿松新闻综合,http://live.ahsz.tv/video/s10001-ggpd/index.m3u8
+宿松新闻综合,http://live.ahsz.tv/video/s10001-szzh/index.m3u8
 六安新闻综合,http://ls.qingting.fm/live/267.m3u8
 六安公共,http://ls.qingting.fm/live/1794199.m3u8
 亳州新闻,http://zbbf2.ahbztv.com/live/416.m3u8?zanhd
@@ -1731,4 +1733,4 @@ CCTV-15,http://lu.wqwqwq.sbs/itv/1000000005000265014.m3u8?cdn=ystenlive
 封神榜,http://iptv.jxpan.vip:18888/aio/huya/29465849
 
 🕘️更新时间,#genre#
-2025-08-30 19:06:40,http://fjcm-2118.live.iptv.darwinchow.com/PLTV/88888888/224/3221225812/index.m3u8
+2025-08-31 19:07:05,http://fjcm-2118.live.iptv.darwinchow.com/PLTV/88888888/224/3221225812/index.m3u8
