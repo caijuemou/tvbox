@@ -91,7 +91,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/短剧屋.json",
-            "jar": "./xiaosa/spider.jar;md5;2b7a0d8532fe7db4315f04d2b907ff54"
+            "jar": "./xiaosa/spider.jar;md5;90c09f9ddba0f9504f773b1081be487e"
         },
         {
             "key": "盒子影视",
@@ -102,7 +102,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/盒子影视.json",
-            "jar": "./xiaosa/spider.jar;md5;2b7a0d8532fe7db4315f04d2b907ff54"
+            "jar": "./xiaosa/spider.jar;md5;90c09f9ddba0f9504f773b1081be487e"
         },
         {
             "key": "电影牛",
@@ -113,7 +113,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/电影牛.json",
-            "jar": "./xiaosa/spider.jar;md5;2b7a0d8532fe7db4315f04d2b907ff54"
+            "jar": "./xiaosa/spider.jar;md5;90c09f9ddba0f9504f773b1081be487e"
         },
         {
             "key": "玩偶",
