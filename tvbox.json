@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;1bb88ce368642e615b1c4ff388501e51",
+    "spider": "./jar/fan.txt;md5;98ca59a872d6d4d89c8c7e2aafb4dae1",
     "lives": [
         {
             "name": "migu",
@@ -91,7 +91,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/短剧屋.json",
-            "jar": "./xiaosa/spider.jar;md5;6508b568c51e6c394b2c3d3698371f58"
+            "jar": "./xiaosa/spider.jar;md5;0330e7d13db7eeafe21d11734016a21c"
         },
         {
             "key": "盒子影视",
@@ -102,7 +102,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/盒子影视.json",
-            "jar": "./xiaosa/spider.jar;md5;6508b568c51e6c394b2c3d3698371f58"
+            "jar": "./xiaosa/spider.jar;md5;0330e7d13db7eeafe21d11734016a21c"
         },
         {
             "key": "电影牛",
@@ -113,7 +113,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/电影牛.json",
-            "jar": "./xiaosa/spider.jar;md5;6508b568c51e6c394b2c3d3698371f58"
+            "jar": "./xiaosa/spider.jar;md5;0330e7d13db7eeafe21d11734016a21c"
         },
         {
             "key": "玩偶",
@@ -202,6 +202,16 @@
             }
         },
         {
+            "key": "鲸鱼",
+            "name": "👀鲸鱼┃秒播",
+            "type": 3,
+            "api": "csp_AppSxGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/v1TAvdIvuChMackUUvW9kpKB+MLYeh4E6s3acbsBJ32o953hmRr4x"
+        },
+        {
             "key": "原创",
             "name": "☀原创┃不卡",
             "type": 3,
@@ -218,6 +228,17 @@
             "type": 3,
             "api": "csp_LiteAppleGuard",
             "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "低端",
+            "name": "⏮️低端┃外剧",
+            "type": 3,
+            "api": "csp_DdrkGuard",
+            "timeout": 15,
+            "playerType": "2",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
@@ -247,35 +268,14 @@
             "ext": "uqGL1bNENExT7/hGxpSE5qU="
         },
         {
-            "key": "剧九",
-            "name": "👀剧九┃多线",
-            "type": 3,
-            "api": "csp_AppYsV2Guard",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "rfOK0+FRORAJ7epFjN2F+LmhvGnF29fnxik8eJC3AAlFJl8e/Co3qKR3f7pI2cY5ozXZZ9dHjiJz7Ht9P/01UpTYurKeSnahWreewemiQ2fux0BkNEtR69ypVhP1Muo4YsZTow4IKQzyEtbS42eHS9QK"
-        },
-        {
             "key": "下饭",
             "name": "🍙下饭┃多线",
             "type": 3,
-            "api": "csp_AppYsV2Guard",
+            "api": "csp_AppSxGuard",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "rfOK0+FRORAJ7epFjN2F+Lm9o2nF28P91TA4dIy3AAlFJl8e/Co3qKR3f7pI2cY5ozXZZ9dHjiJz7Ht9P/01UpTYurKeSnahWreewemiQ2fux0BkNEtR69ypVhP1Muo4YsZTow4IKQzyEtbS42eHS9QK"
-        },
-        {
-            "key": "低端",
-            "name": "⏮️低端┃外剧",
-            "type": 3,
-            "api": "csp_DdrkGuard",
-            "timeout": 15,
-            "playerType": "2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
+            "ext": "rfOX1voDIQhH8epBwpmIsuSlujLK3sriwSIhL5XjHg0adEYJpXZ48P0hOq5X1M8s5yKKbc1C2H4563JjH/01RZDAuqM="
         },
         {
             "key": "奥特",
@@ -298,6 +298,32 @@
             "filterable": 1,
             "ext": "./json/奇优.json",
             "jar": "./jar/Yoursmile.jar;md5;97796a79a781055669f2d5442439dc5f"
+        },
+        {
+            "key": "电影天堂",
+            "name": "影视 | 电影天堂",
+            "type": 1,
+            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "天涯采集",
+            "name": "影视 | 天涯",
+            "type": 1,
+            "api": "http://tyyszy.com/api.php/provide/vod",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "playerType": 2
         },
         {
             "key": "量子",
