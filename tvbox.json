@@ -91,7 +91,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/短剧屋.json",
-            "jar": "./xiaosa/spider.jar;md5;18bedb8dcfc7604fc13f32f589c1ebe7"
+            "jar": "./xiaosa/spider.jar;md5;983189cac854a1cd5b03f21c64fa80ef"
         },
         {
             "key": "玩偶",
