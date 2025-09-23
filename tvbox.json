@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;98ca59a872d6d4d89c8c7e2aafb4dae1",
+    "spider": "./jar/fan.txt;md5;4fd08ed97a83386bdfa8359b0e276563",
     "lives": [
         {
             "name": "migu",
@@ -91,7 +91,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/短剧屋.json",
-            "jar": "./xiaosa/spider.jar;md5;e994a28a63ea421ce2082f82f68b8c78"
+            "jar": "./xiaosa/spider.jar;md5;dce5ddf4c65b83e1598df7bb38ff6bd7"
         },
         {
             "key": "玩偶",
