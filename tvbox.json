@@ -1,26 +1,6 @@
 {
-    "spider": "./jar/fan.txt;md5;e0739e1404018d77ae4e039bf44094d7",
+    "spider": "./jar/fan.txt;md5;cba66f046cc8da91e888605c155828a3",
     "lives": [
-        {
-            "name": "migu",
-            "type": 0,
-            "url": "https://gitee.com/dream-deve/migu_video/raw/main/interface.txt",
-            "playerType": 1,
-            "ua": "okhttp/3.8.1",
-            "timeout": 20,
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "zbds",
-            "type": 0,
-            "url": "./iptv.txt",
-            "playerType": 1,
-            "ua": "okhttp/3.8.1",
-            "timeout": 20,
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
         {
             "name": "live",
             "type": 0,
@@ -91,7 +71,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/短剧屋.json",
-            "jar": "./xiaosa/spider.jar;md5;a88c3ae0dfe3c3fc4cb0e17209618b3d"
+            "jar": "./xiaosa/spider.jar;md5;d8f102a65c08d2a049531f8cffcc2cba"
         },
         {
             "key": "玩偶",
