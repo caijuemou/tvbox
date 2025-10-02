@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;74b0b420eee69168fed20da6a5c4d507",
+    "spider": "./jar/fan.txt;md5;f6dd09061793aa1f499be0ffebaf5f67",
     "lives": [
         {
             "name": "live",
@@ -71,7 +71,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/短剧屋.json",
-            "jar": "./xiaosa/spider.jar;md5;a6bcea0abd1579151d3a4232800c5e26"
+            "jar": "./xiaosa/spider.jar;md5;9ac2e721967a1861d6e17658a6df7f49"
         },
         {
             "key": "玩偶",
