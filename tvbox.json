@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;0b26306733eda1907767328af0a2abe6",
+    "spider": "./jar/fan.txt;md5;ae66555429c1a4e321617ddbb1caa7f3",
     "lives": [
         {
             "name": "live",
@@ -86,7 +86,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./xiaosa/XYQHiker/短剧屋.json",
-            "jar": "./xiaosa/spider.jar;md5;45e6fff81017832c12b4484bca16c63f"
+            "jar": "./xiaosa/spider.jar;md5;b5a1a33eee90a18a6885ea79390534f4"
         },
         {
             "key": "玩偶",
@@ -100,8 +100,7 @@
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
                 "from": "4k|auto",
-                "siteUrl": "https://www.wogg.com/",
-                "danMu": "弹"
+                "siteUrl": "https://www.wogg.com/"
             }
         },
         {
