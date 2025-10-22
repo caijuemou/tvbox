@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;ae66555429c1a4e321617ddbb1caa7f3",
+    "spider": "./jar/fan.txt;md5;1910aa90425fdf206d3a39697e9ffe1b",
     "lives": [
         {
             "name": "live",
@@ -76,17 +76,6 @@
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt"
             }
-        },
-        {
-            "key": "剧屋短剧",
-            "name": "剧屋｜短剧",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./xiaosa/XYQHiker/短剧屋.json",
-            "jar": "./xiaosa/spider.jar;md5;b5a1a33eee90a18a6885ea79390534f4"
         },
         {
             "key": "玩偶",
