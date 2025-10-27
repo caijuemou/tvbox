@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;a3723bd0083731bc4afd2d4f2e8c4603",
+    "spider": "./jar/fan.txt;md5;1acb683fd1fb4f2c0492747745f6229a",
     "lives": [
         {
             "name": "migu",
@@ -98,9 +98,7 @@
             "changeable": 0,
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto",
-                "siteUrl": "https://www.wogg.com/",
-                "danMu": "弹"
+                "from": "4k|auto"
             }
         },
         {
