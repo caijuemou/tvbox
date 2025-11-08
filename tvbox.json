@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;11b6dbd2b630fc9c95e36247917f55db",
+    "spider": "./jar/fan.txt;md5;56f518af99e91de33cd88eafc9b85c2d",
     "lives": [
         {
             "name": "migu",
@@ -178,17 +178,6 @@
             "type": 3,
             "api": "csp_BttwooGuard",
             "timeout": 15,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "低端",
-            "name": "⏮️低端┃外剧",
-            "type": 3,
-            "api": "csp_DdrkGuard",
-            "timeout": 15,
-            "playerType": "2",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
