@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;08cf5c9e4f3326660eb75032e9ffc256",
+    "spider": "./jar/fan.txt;md5;2e2b0912f01c082c67423ea8a091ef28",
     "lives": [
         {
             "name": "migu",
@@ -183,20 +183,34 @@
             "changeable": 1
         },
         {
+            "key": "热播",
+            "name": "📺热播┃多线",
+            "type": 3,
+            "api": "csp_AppTTGuard",
+            "timeout": 10,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "uqGL1bNENExT7/hGxpSE5qU="
+        },
+        {
             "key": "剧圈",
             "name": "🐻剧圈┃多线",
             "type": 3,
-            "api": "csp_JqqGuard",
+            "api": "csp_AppSxGuard",
             "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
+            "changeable": 1,
+            "ext": "rfOb1uAWbkRHp7hdxprGv+T3siLQwtXglSghatTiFVdOcF8X8jEp+aRrf/FNw9F962OYcJdY2CMy/nlgFeo4R9+I8K2FSnLnGP2FxOijR2T52RQ6NwQWv5XyDxPxRcMHTslu7SYeFlb8EuDsyEz4Dg=="
         },
         {
             "key": "下饭",
             "name": "🍙下饭┃多线",
             "type": 3,
             "api": "csp_AppSxGuard",
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
@@ -207,10 +221,11 @@
             "name": "👀鲸鱼┃多线",
             "type": 3,
             "api": "csp_AppSxGuard",
+            "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZz8r+wzZkfJbkFR5FJ1EK9mVu7apib64Gl8ND6FCETepkkEhht0ptIq9qCQ=="
+            "ext": "rfOX1voDIQhH8epBwtCFsra0umqGnpe+lWNtKs6yVR1PMxpf9CY77fshTPNP+c5lnl6CWfxm7XYO7C1p"
         },
         {
             "key": "欢视",
@@ -225,26 +240,15 @@
             "ext": "uqGL1bNENExT9fFAy5mE5qU="
         },
         {
-            "key": "热播",
-            "name": "📺热播┃多线",
-            "type": 3,
-            "api": "csp_AppTTGuard",
-            "timeout": 10,
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "uqGL1bNENExT7/hGxpSE5qU="
-        },
-        {
             "key": "糯米",
             "name": "🍓糯米┃多线",
             "type": 3,
-            "api": "csp_NmyswvGuard",
+            "api": "csp_AppSxGuard",
             "timeout": 10,
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
+            "changeable": 1,
+            "ext": "rfOX1voDIQhH8epBwtCFsuPz+Gqemoi6lWBjO9WjCB9RMwhf0wct5v5AZOR3ieFbjE+ndoJe"
         },
         {
             "key": "奥特",
