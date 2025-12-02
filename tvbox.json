@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;403a59bd559cc36fe67544e5de66e774",
+    "spider": "./jar/fan.txt;md5;af42cd672e47918790156487751cdf46",
     "lives": [
         {
             "name": "migu",
@@ -73,7 +73,7 @@
             "jar": "./jar/sx.jar;md5;6186f490eadf878ba5de21a7fa29e594"
         },
         {
-            "key": "MyDrive",
+            "key": "Drive",
             "name": "🗂我的云盘┃我配置",
             "type": 3,
             "api": "csp_MyDriveGuard",
