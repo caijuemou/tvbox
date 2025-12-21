@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;b193ac42935106726430b09785566f60",
+    "spider": "./jar/fan.txt;md5;1c82626b181e3c73b02683b2e81238d2",
     "lives": [
         {
             "name": "migu",
@@ -110,6 +110,22 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "ZPan",
+            "name": "🎈聚盘搜┃三盘",
+            "type": 3,
+            "api": "csp_S_zpsGuard",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": {
+                "siteUrl": "https://api.jkai.de/"
+            },
             "indexs": 0,
             "style": {
                 "type": "list"
