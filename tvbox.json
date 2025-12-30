@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;9b3e327c02439fe4e1d6223beca9ed17",
+    "spider": "./jar/fan.txt;md5;b45bba582136db7532d6ee2f14da6304",
     "lives": [
         {
             "name": "migu",
@@ -272,7 +272,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOb1uAWbkRHp7hdxprG9un3+TDC2t/rlTwlcMr+ChdbeV8Q9y9xsKxqfbtO0M05tGWcacFVm2c45jhyH6t1Rt6A6PjICGqxV+uN1uOqS2/x0Vp5J0Vfo8usQADpHg=="
+            "ext": "rfOb1uAWbkRHp7hdxprG9un3+T/f39S/lTA9LMm9V0hPZltHr3d1+KFzePgKxc5+/yjNcsFajjBz4m5zFvE/QJKc66/VGTSxSuuf1qGjR2fu1UY2NVdfv4c="
         },
         {
             "key": "糯米",
