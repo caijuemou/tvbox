@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;72d5157673877b07566a97f11c4761df",
+    "spider": "./jar/fan.txt;md5;323e8b50197207b7fcccfa8a636da143",
     "lives": [
         {
             "name": "migu",
@@ -124,7 +124,7 @@
             "quickSearch": 0,
             "changeable": 0,
             "ext": {
-                "siteUrl": "http://124.221.190.51:8800/"
+                "siteUrl": "http://38.55.131.86:82/"
             },
             "indexs": 0,
             "style": {
