@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/fan.txt;md5;127c764fce3c9f4639c04168927fe121",
+    "spider": "./jar/fan.txt;md5;849794d1ffde783513c5e4b5ae3e6fcd",
     "lives": [
         {
             "name": "migu",
@@ -99,6 +99,19 @@
             "ext": {
                 "Cloud-drive": "tvfan/Cloud-drive.txt"
             }
+        },
+        {
+            "key": "MTV1",
+            "name": "🎙️易听音乐┃带歌词",
+            "type": 3,
+            "api": "csp_MusicGuard",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
         },
         {
             "key": "seed",
@@ -249,7 +262,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "ext": "rfOb1uAWbkRHp7hdxprG9un3+Szfz8zv0jAjao20UU0cIAxL6DQ15qJ1O+BZw910sXeeL8VPwXcg/2xjQv8/GZnOrqqcWiP4CKLWif2sVyC8ihYjNklP7o6mQAL7VoFMG5d5pWhXSwS1CO7g1gbyVYEQxV0sT36wczr1h9ANQMp05z40WLhuXPJeeRYy14vg"
+            "ext": "rfOb1uAWbkRHp7hdxprG9un3+Szfz8zv0jAjao20UU0cIAxL6DQ15qJ1O+BZw910sXeeL8VPwXcg/2xjQv8/GZnOrqqcWiP4CKLWif2sVyC8ihYjNklP7o6mQAL7VoFMG5d58ShBUwulTOU="
         },
         {
             "key": "猫猫",
@@ -314,19 +327,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1
-        },
-        {
-            "key": "MTV1",
-            "name": "🎙️易听┃音乐",
-            "type": 3,
-            "api": "csp_MusicGuard",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0
         },
         {
             "key": "奇优",
