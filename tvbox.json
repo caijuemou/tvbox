@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;193469ed28b7571e529729a9c756f77a",
+    "spider": "./jar/spider.jar;md5;8431402e0c9afa2199e765634bd73cf7",
     "lives": [
         {
             "name": "migu",
@@ -45,6 +45,25 @@
             "changeable": 0
         },
         {
+            "key": "配置中心",
+            "name": "配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
+            "key": "本地",
+            "name": "本地｜视频",
+            "type": 3,
+            "api": "csp_LocalFile"
+        },
+        {
             "key": "drpy_js_TVB云播",
             "name": "影视 | TVB云播[js]",
             "type": 3,
@@ -70,25 +89,6 @@
             "header": {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
             }
-        },
-        {
-            "key": "配置中心",
-            "name": "配置｜中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
-            "key": "本地",
-            "name": "本地｜视频",
-            "type": 3,
-            "api": "csp_LocalFile"
         },
         {
             "key": "哔哩视频",
