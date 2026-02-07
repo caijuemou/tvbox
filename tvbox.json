@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;a1eed7bae8585dad4acd6c2bd33c8e49",
+    "spider": "./jar/spider.jar;md5;58c569097fe9202e659a53d06f6ac889",
     "lives": [
         {
             "name": "migu",
@@ -537,7 +537,7 @@
             "name": "云播｜影视",
             "type": 3,
             "api": "csp_Tvyb",
-            "ext": "http://www.viptv05.com"
+            "ext": "http://www.tvyb03.com"
         },
         {
             "key": "苹果影视",
