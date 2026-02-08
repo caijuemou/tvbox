@@ -24,7 +24,7 @@
         {
             "name": "ipv6",
             "type": 0,
-            "url": "./tvboxtv.txt",
+            "url": "./iptv.txt",
             "playerType": 1,
             "ua": "okhttp/3.8.1",
             "timeout": 20,
@@ -34,6 +34,16 @@
     ],
     "wallpaper": "https://jianbian.chuqiuyu.workers.dev",
     "sites": [
+        {
+            "key": "drpy_js_豆瓣",
+            "name": "搜索 | 豆瓣[js]",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./js/drpy.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
         {
             "key": "配置中心",
             "name": "配置｜中心",
@@ -187,6 +197,13 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./XBPQ/永乐影视.json"
+        },
+        {
+            "key": "采集之王",
+            "name": "采集｜合集",
+            "type": 3,
+            "api": "./lib/drpy2.min.js",
+            "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
         },
         {
             "key": "1905",
