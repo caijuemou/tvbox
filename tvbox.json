@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;58c569097fe9202e659a53d06f6ac889",
+    "spider": "./jar/spider.jar;md5;016ae9548ea27f5f48c95ec2b880c772",
     "lives": [
         {
             "name": "migu",
@@ -173,9 +173,14 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "https://www.labi88.sbs",
+                    "http://xiaocge.fun",
+                    "http://feimo.fun",
                     "https://feimao666.fun",
-                    "http://feimao888.fun"
+                    "http://feimao888.fun",
+                    "http://www.labi88.sbs",
+                    "http://fmao.site",
+                    "http://fmao.shop",
+                    "http://xiaocgege.shop"
                 ]
             },
             "timeout": 60
