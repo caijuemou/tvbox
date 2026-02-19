@@ -1389,6 +1389,7 @@ CETV-4,http://gslbmgsplive.miguvideo.com/migu/kailu/cetv4/50/20240709/index.m3u8
 亳州新闻,http://zbbf2.ahbztv.com/live/416.m3u8?zanhd
 亳州农村,http://zbbf2.ahbztv.com/live/418.m3u8
 亳州农村,http://zbbf2.ahbztv.com/live/418.m3u8?zanhd
+宿州新闻综合,http://live.ahsz.tv/video/s10001-szzh/index.m3u8
 
 ☘️宁夏频道,#genre#
 宁夏经济,https://ls.qingting.fm/live/1841/64k.m3u8
@@ -1745,4 +1746,4 @@ CCTV-15,https://cc06.tv12.xyz/16.m3u8
 射雕英雄传,http://www.douzhicloud.site:35455/huya/23824164
 
 🕘️更新时间,#genre#
-2026-02-19 00:10:10,http://[2409:8087:74f0:22::4]:6610/270000001128/9900000501/index.m3u8
+2026-02-20 00:10:34,http://[2409:8087:74f0:22::4]:6610/270000001128/9900000501/index.m3u8
