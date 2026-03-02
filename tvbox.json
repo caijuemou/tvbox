@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;dcaffe7b9e7325ec86fb826abc6d38fe",
+    "spider": "./jar/spider.jar;md5;bcc319971f3b010bfe087d97453c50be",
     "lives": [
         {
             "name": "migu",
@@ -113,12 +113,6 @@
             "type": 3,
             "api": "csp_Tvyb",
             "ext": "http://www.tvyb03.com"
-        },
-        {
-            "key": "苹果影视",
-            "name": "苹果｜影视",
-            "type": 3,
-            "api": "csp_LiteApple"
         },
         {
             "key": "饺子影视",
