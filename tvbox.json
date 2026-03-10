@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;3a7f8013058d4422da788447cc06504b",
+    "spider": "./jar/spider.jar;md5;c4f899fee78d74a14549252b31118fbc",
     "lives": [
         {
             "name": "migu",
@@ -216,6 +216,15 @@
                 "type": "list"
             },
             "ext": "./XBPQ/哆啦新番社.json"
+        },
+        {
+            "key": "919体育",
+            "name": "919｜体育",
+            "type": 3,
+            "api": "csp_919Tiyu",
+            "style": {
+                "type": "list"
+            }
         },
         {
             "key": "爱听音乐",
