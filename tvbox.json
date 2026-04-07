@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;e5b8d2d8e8583332718b6e20d2c10a86",
+    "spider": "./jar/spider.jar;md5;1467377c08ce814ef032201466898176",
     "lives": [
         {
             "name": "migu",
@@ -192,13 +192,6 @@
             "ext": "./XYQHiker/来看影视.json"
         },
         {
-            "key": "采集之王",
-            "name": "采集｜合集",
-            "type": 3,
-            "api": "./lib/drpy2.min.js",
-            "ext": "./js/采集之王.js?type=url&params=../json/采集静态.json$1$1"
-        },
-        {
             "key": "1905",
             "name": "1905｜影视",
             "type": 3,
@@ -216,6 +209,58 @@
                 "type": "list"
             },
             "ext": "./XBPQ/哆啦新番社.json"
+        },
+        {
+            "key": "阿里云盘",
+            "name": "阿里｜云盘",
+            "type": 3,
+            "api": "csp_PanAli",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "夸克网盘",
+            "name": "夸克｜网盘",
+            "type": 3,
+            "api": "csp_PanQuark",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "UC网盘",
+            "name": "UC｜网盘",
+            "type": 3,
+            "api": "csp_PanUC",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "百度网盘",
+            "name": "百度｜网盘",
+            "type": 3,
+            "api": "csp_PanBaidu",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
         },
         {
             "key": "919体育",
