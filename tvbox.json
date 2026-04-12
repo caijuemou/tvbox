@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;a367b60be5d99c61ee013cbd0320f8e5",
+    "spider": "./jar/spider.jar;md5;57c11a47cbedc6ff3cd1eea22dad3a86",
     "lives": [
         {
             "name": "migu",
@@ -263,10 +263,28 @@
             }
         },
         {
+            "key": "球通体育",
+            "name": "球通｜体育",
+            "type": 3,
+            "api": "csp_QiutongTY",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "瓜子体育",
+            "name": "瓜子｜体育",
+            "type": 3,
+            "api": "csp_GuaziTY",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "919体育",
             "name": "919｜体育",
             "type": 3,
-            "api": "csp_919Tiyu",
+            "api": "csp_919TY",
             "style": {
                 "type": "list"
             }
