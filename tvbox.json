@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;eb9dd731d7104d38fcd239c3e21c99ef",
+    "spider": "./jar/spider.jar;md5;049dc871de7cfd19b5d33e63bb423080",
     "lives": [
         {
             "name": "migu",
@@ -104,7 +104,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czzymovie.com"
+            "ext": "https://www.czzy89.com"
         },
         {
             "key": "金牌影视",
@@ -150,13 +150,6 @@
             "filterable": 1
         },
         {
-            "key": "韩剧看看",
-            "name": "韩剧｜影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/韩剧看看.json"
-        },
-        {
             "key": "小镇影视",
             "name": "小镇｜影视",
             "type": 3,
@@ -183,13 +176,6 @@
             "type": 3,
             "api": "csp_XYQHiker",
             "ext": "./XYQHiker/剧圈影视.json"
-        },
-        {
-            "key": "来看影视",
-            "name": "来看｜影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "ext": "./XYQHiker/来看影视.json"
         },
         {
             "key": "1905",
