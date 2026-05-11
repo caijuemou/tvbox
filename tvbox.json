@@ -91,6 +91,30 @@
             }
         },
         {
+            "key": "italkbbtv",
+            "name": "ITalkBB TV",
+            "type": 3,
+            "api": "./py/ITalkBBTV.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1
+        },
+        {
+            "key": "qiletv",
+            "name": "奇乐影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/奇乐.json",
+            "header": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
+            }
+        },
+        {
             "key": "独播影视",
             "name": "独播｜影视",
             "type": 3,
@@ -316,16 +340,6 @@
             "name": "爱听｜音乐",
             "type": 3,
             "api": "./py/爱听音乐.py"
-        },
-        {
-            "key": "奇优",
-            "name": "影视 | ️奇优[直连]",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/奇优.json"
         },
         {
             "key": "电影天堂",
