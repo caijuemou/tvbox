@@ -81,8 +81,32 @@
             }
         },
         {
+            "key": "czzyv",
+            "name": "厂长影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/厂长影视.json",
+            "header": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
+            }
+        },
+        {
+            "key": "libvio",
+            "name": "libvio｜影视",
+            "type": 3,
+            "api": "./py/libvio.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1
+        },
+        {
             "key": "italkbbtv",
-            "name": "ITalkBB TV",
+            "name": "ITalkBB｜外",
             "type": 3,
             "api": "./py/ITalkBBTV.py",
             "searchable": 1,
