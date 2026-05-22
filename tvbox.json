@@ -95,16 +95,6 @@
             }
         },
         {
-            "key": "libvio",
-            "name": "libvio｜影视",
-            "type": 3,
-            "api": "./py/libvio.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "changeable": 1
-        },
-        {
             "key": "italkbbtv",
             "name": "ITalkBB｜外",
             "type": 3,
