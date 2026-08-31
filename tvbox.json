@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;13d3366f435f4fc803eac635786812d7",
+    "spider": "./jar/spider.jar;md5;759a5870c8a6e4415023f1c3e8b2cb7c",
     "lives": [
         {
             "name": "migu",
@@ -140,6 +140,24 @@
             "quickSearch": 1,
             "filterable": 0,
             "changeable": 1
+        },
+        {
+            "key": "世界影视",
+            "name": "世界 • 影视",
+            "type": 3,
+            "api": "csp_HkybSpider",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "壹壹影视",
+            "name": "壹壹 • 影视",
+            "type": 3,
+            "api": "csp_YiYs",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "瓜子影视",
