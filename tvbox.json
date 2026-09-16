@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;466fd45c357313a23e0e05d201b38d6c",
+    "spider": "./jar/spider.jar;md5;9faf2acc96a8457b2aa88fe4707e02f5",
     "lives": [
         {
             "name": "migu",
@@ -220,13 +220,6 @@
             }
         },
         {
-            "key": "剧圈影视",
-            "name": "剧圈 • 影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "ext": "./json/JQYS.json"
-        },
-        {
             "key": "1905",
             "name": "1905 • 影视",
             "type": 3,
@@ -347,22 +340,6 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
-            "timeout": 60
-        },
-        {
-            "key": "米搜",
-            "name": "米搜 • 搜索",
-            "type": 3,
-            "api": "csp_MiSou",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": {
-                "site": [
-                    "http://gesoso.fun",
-                    "http://www.misoso.shop"
-                ]
-            },
             "timeout": 60
         },
         {
@@ -515,15 +492,6 @@
                 "type": "rect",
                 "ratio": 1.618
             }
-        },
-        {
-            "key": "爱听音乐",
-            "name": "爱听 • 音乐",
-            "type": 3,
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "api": "./py/爱听音乐.py"
         },
         {
             "key": "电影天堂",
