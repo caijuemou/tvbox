@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;92e9198a999a7435858fca24777b7d72",
+    "spider": "./jar/spider.jar;md5;b6fc17ade72f89a0c9594c4bde5ebf13",
     "lives": [
         {
             "name": "migu",
@@ -148,10 +148,23 @@
             "api": "csp_Feiyu"
         },
         {
+            "key": "旺旺影视",
+            "name": "旺旺 • 影视",
+            "type": 3,
+            "api": "csp_Wwys",
+            "ext": "https://vip.wwgz.cn:5200"
+        },
+        {
             "key": "独播影视",
             "name": "独播 • 影视",
             "type": 3,
             "api": "csp_Duboku"
+        },
+        {
+            "key": "瓜子影视",
+            "name": "瓜子 • 影视",
+            "type": 3,
+            "api": "csp_Gz360"
         },
         {
             "key": "厂长影视",
