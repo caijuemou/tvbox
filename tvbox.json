@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;9265a1d14d8135dc4f1dca0a8b30a130",
+    "spider": "./jar/spider.jar;md5;c6c7cbd14359dee31a97abb7ec27df19",
     "lives": [
         {
             "name": "migu",
@@ -140,12 +140,6 @@
             "quickSearch": 1,
             "filterable": 0,
             "changeable": 1
-        },
-        {
-            "key": "巨量",
-            "name": "巨量 • 影视",
-            "type": 1,
-            "api": "https://api.juliang.live/api/provide/vod"
         },
         {
             "key": "飞娱影视",
