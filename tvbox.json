@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar;md5;9f7227651023177d2a036830180add15",
+    "spider": "./jar/spider.jar;md5;c25d34b0cfc044cd1ab3f225097ea7fd",
     "lives": [
         {
             "name": "migu",
@@ -140,6 +140,18 @@
             "quickSearch": 1,
             "filterable": 0,
             "changeable": 1
+        },
+        {
+            "key": "懂片",
+            "name": "懂片 • 影视",
+            "type": 3,
+            "api": "csp_DongPian"
+        },
+        {
+            "key": "杜北",
+            "name": "杜北 • 影视",
+            "type": 3,
+            "api": "csp_Dubk"
         },
         {
             "key": "星辰影视",
