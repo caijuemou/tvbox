@@ -1537,6 +1537,7 @@ CCTV-15,https://cc06.tv12.xyz/16.m3u8
 笑傲江湖,https://live.metshop.top/huya/23865142
 西游记,https://txmov2.a.kwimgs.com/bs3/video-hls/5239093806671579134_hlsb.m3u8
 封神榜,https://live.metshop.top/huya/29465849
+鹿鼎记,https://live.metshop.top/huya/23650774
 
 🕘️更新时间,#genre#
-2026-11-25 01:48:46,http://[2409:8087:74f0:22::4]:6610/270000001128/9900000501/index.m3u8
+2026-11-26 01:49:45,http://[2409:8087:74f0:22::4]:6610/270000001128/9900000501/index.m3u8
